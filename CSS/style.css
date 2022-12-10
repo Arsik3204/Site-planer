@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family: Roboto,'sans-serif';}
+
+.background {
+  background-repeat: no-repeat;
+}
+
+/* form */
+
+.registr {
+position: absolute;
+top: 9%;
+left: 19%;
+
+font-size: 40px;
+}
+.input-text {
+position: absolute;
+top: 9%;
+left:73%;
+
+font-size: 40px;
+}
+.vertical-line {  
+position: absolute;
+top: 9.5%;
+left: 50%;
+
+border-left: 1.5px solid black;
+height: 780px;
+}
+
+.decor {
+position: absolute;
+top: 20%;
+left: 9%;
+border-radius: 30px;
+
+}
+.form-inner input {
+display: block;
+width: 530px;
+height: 65px;
+padding: 0 20px;
+margin-bottom: 35px;
+background: #E9EFF6;
+line-height: 40px;
+border-width: 0;
+border-radius: 20px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+transition: .4s all ease;
+}
+.form-inner input[type="submit"] {
+margin-top: 30px;
+background: #FFF9F1;
+color: black;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
+}
+
+.decor-two {
+position: absolute;
+top: 25%;
+left: 59.5%;
+border-radius: 30px;
+}
+.form-inner-two input {
+display: block;
+width: 530px;
+height: 65px;
+padding: 0 20px;
+margin-bottom: 35px;
+background: #E9EFF6;
+line-height: 40px;
+border-width: 0;
+border-radius: 20px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+transition: .4s all ease;
+  }
+.form-inner-two input[type="submit"] {
+margin-top: 30px;
+background: #FFF9F1;
+color: black;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
+}
+
+.form-inner input:hover {
+transform: scale(1.1);
+font-size: 25px;
+}
+
+.form-inner-two input:hover {
+transform: scale(1.1);
+font-size: 25px;
+}
+
+.footer {
+position: absolute;
+top: 100%;
+
+width: 1680px;
+height: 200px;
+
+background-color: black;
+}
+
+.footer p {
+position: absolute;
+top: 40%;
+left: 36%;
+
+color: white;
+font-size: 30px;
+}
+
+/* Adaptive */
+
+@media (max-width: 1152px) {
+  .background {
+    background-repeat: no-repeat;
+  }
+  .vertical-line {
+    position: absolute;
+    top: 10%;
+    left: 71.5%;
+    height: 565px;
+  }
+  .input-text {
+    position: absolute;
+    left: 103%;
+  }
+  .decor-two {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    border-radius: 30px;
+}
+  
+.decor {
+  position: absolute;
+  left: 12%;
+}
+
+.registr {
+  position: absolute;
+  left:25%;
+}
+
+
+}
